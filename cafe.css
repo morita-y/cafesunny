@@ -97,6 +97,13 @@ header{
   color:#FFF;
   display:block;
 }
+.gnav-icon{
+  color:#FFF;
+  float:right;
+  font-size:25px;
+  padding:21px 0;
+  display:none;
+}
 .main-wrapper{
   padding-bottom:80px;
   background-color:#ffd699;
@@ -155,10 +162,4 @@ footer p{
 footer {
   padding-top:30px;
 }
-.gnav-icon{
-  color:#FFF;
-  float:right;
-  font-size:25px;
-  padding:21px 0;
-  display:none;
-}
+
