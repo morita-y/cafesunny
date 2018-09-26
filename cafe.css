@@ -60,6 +60,14 @@ a {
   margin: 20px 0;
 }
 
+.menu-icon{
+  color:#FFF;
+  float:right;
+  font-size:50px;
+  padding:21px 0;
+  display:none;
+}
+
 .fa{
   margin-right:5px;
 }
@@ -97,13 +105,7 @@ header{
   color:#FFF;
   display:block;
 }
-.menu-icon{
-  color:#FFF;
-  float:right;
-  font-size:50px;
-  padding:21px 0;
-  display:none;
-}
+
 .main-wrapper{
   padding-bottom:80px;
   background-color:#ffd699;
