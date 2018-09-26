@@ -38,7 +38,7 @@ a {
 
 .btn {
   padding: 8px 24px;
-  color: #FFF;
+  color: white;
   display: inline-block;
   opacity: 0.8;
   border-radius:4px;
@@ -97,7 +97,7 @@ header{
   color:#FFF;
   display:block;
 }
-.gnav-icon{
+.menu-icon{
   color:#FFF;
   float:right;
   font-size:25px;
@@ -124,21 +124,21 @@ header{
 .clear{
   clear:left;
 }
-.menu-icon{
+.df-icon{
   position: relative;
 }
-.menu-icon img{
+.df-icon img{
   border-radius: 20px;
   box-shadow: 7px 7px #cc7a00;
   cursor: pointer;
 }
-.menu-icon img:active{
+.df-icon img:active{
   box-shadow: none;
   position: relative;
   top: 7px;
   left:7px;
 }
-.menu-icon p{
+.df-icon p{
   position: absolute;
   top: 45px;
   width:100%;
@@ -163,4 +163,3 @@ footer {
   padding-top:30px;
   padding-bottom: 20px;
 }
-
