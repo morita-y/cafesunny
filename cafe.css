@@ -60,10 +60,6 @@ a {
   margin: 20px 0;
 }
 
-.fa{
-  margin-right:5px;
-}
-
 header{
   height:65px;
   width:100%;
@@ -83,12 +79,6 @@ header{
 
 .header-right{
   float:right;
-  background-color:rgba(255,255,255,0.3);
-  transition: all 0.5s;
-}
-
-.header-right:hover{
-  background-color:rgba(255, 255, 255, 0.5);
 }
 
 .header-right a{
@@ -101,7 +91,8 @@ header{
 }
 
 .header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.5s;
 }
 
 .menu-icon{
@@ -110,6 +101,15 @@ header{
     font-size:25px;
     padding:21px 0;
     display:none;
+  }
+
+.fab{
+    margin-right: 5px;
+  }
+
+.fas{
+    margin-right: 5px;
+    display:none !important;
   }
 
 .main-wrapper{
