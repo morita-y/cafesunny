@@ -34,16 +34,17 @@
     padding-top:130px;
   }
 
-.header-right{
-  display:none;
-}
+ .header-right{
+   display:none;
+ }
 
-.menu-icon{
-  display:block;
-}
+ .menu-icon{
+   display:block;
+ }
   .top-wrapper h1{
-  font-size:24px;
-}
+   font-size:24px;
+ }
   .top-wrapper p{
-  font-size:14px;
+   font-size:14px;
+ }
 }
