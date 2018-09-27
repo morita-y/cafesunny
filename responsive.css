@@ -41,6 +41,11 @@
  .menu-icon{
    display:block;
  }
+
+ .fas{
+   display:block !important;
+ }
+
   .top-wrapper h1{
    font-size:24px;
  }
