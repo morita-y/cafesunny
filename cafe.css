@@ -60,17 +60,8 @@ a {
   margin: 20px 0;
 }
 
-.menu-icon{
-  color:#FFF;
-  float:right;
-  font-size:50px;
-  padding:21px 0;
-  display:none;
-}
-
 .fa{
   margin-right:5px;
-  display:none;
 }
 
 header{
@@ -105,7 +96,21 @@ header{
   padding: 0 25px;
   color:#FFF;
   display:block;
+  float: left;
+  transition: all 0.5s;
 }
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon{
+    color:#FFF;
+    float:right;
+    font-size:25px;
+    padding:21px 0;
+    display:none;
+  }
 
 .main-wrapper{
   padding-bottom:80px;
