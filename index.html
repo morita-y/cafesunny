@@ -7,27 +7,44 @@
   <link rel="stylesheet" href="cafe.css">
   <link rel="stylesheet" href="responsive.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-</head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <body>
   <header>
     <div class="container">
-      <div class="header-left">
+      <div id="top-btn" class="header-left">
         <img src="img/logo.png" class="logo" alt="" />
       </div>
 
       <span><i class="fas fa-bars menu-icon"></i></span>
 
       <div class="header-right">
-        <a href="#">メニュー</a>
-        <a href="#" class="login">ログイン</a>
+        <a href="#df-menu">メニュー</a>
+        <a href="#" class="login" id="login-show">ログイン</a>
       </div>
 
     </div>
   </header>
 
-  <div class="top-wrapper">
+
+<div class="login-modal-wrapper" id="login-modal">
+  <div class="modal">
+      <div class="close-modal">
+        <i class="fa fa-2x fa-times"></i>
+      </div>
+    <div id="login-form">
+      <h2>Emailログイン</h2>
+      <form action="#">
+        <input class="form-control" type="text" placeholder="メールアドレス">
+        <input class="form-control" type="password" placeholder="パスワード">
+        <div id="submit-btn">ログイン</div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="top-wrapper">
     <div class="container">
-      <h1>ようこそ。ここは陽だまりカフェ</h1>
+      <h1>ようこそ。ここは陽だまりカフェ</h1>s
       <p>癒しを求めるお客様につかのまの休息を…。</p>
     <div class="btn-wrapper">
       <a href="#" class="btn facebook">
@@ -41,7 +58,7 @@
   </div>
   <div class="main-wrapper">
     <div class="container">
-      <div class="heading">
+      <div id="df-menu" class="heading">
         <h2>さぁ、召し上がれ！</h2>
       </div>
 
@@ -75,11 +92,14 @@
     </div>
 
   </div>
+
   <footer>
     <div class="container">
       <img src="img/logo.png" alt="">
       <p>ひだまりカフェ</p>
     </div>
   </footer>
+
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
